@@ -18,7 +18,11 @@ public class Gcd {
 			// TODO Auto-generated method stub
 		} catch (NumberFormatException ex) {
 			ex.printStackTrace();
-			System.out.println("Your application requires" + " two numbers typed to the command line.");
+			System.out.println("Your application requires" + 
+		" two numbers typed to the command line.");
+		} catch (ArrayIndexOutOfBoundsException ex) {
+			ex.printStackTrace();
+			System.out.println("Your application requires two numbers typed to the command line.");
 		}
 		/**
 		 * @param args
